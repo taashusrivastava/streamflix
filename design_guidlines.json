@@ -1,0 +1,58 @@
+{
+  "app_name": "STREAMFLIX",
+  "archetype": "LUXURY & CINEMATIC DARK MODE (Archetype 5)",
+  "context": "streaming_platform_mvp",
+  "theme": "dark",
+  "typography": {
+    "heading_font": "Outfit",
+    "body_font": "Plus Jakarta Sans",
+    "mono_font": "JetBrains Mono",
+    "hierarchy": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "h3": "text-xl sm:text-2xl font-semibold",
+      "h4": "text-lg sm:text-xl font-medium",
+      "body": "text-base sm:text-sm text-zinc-300",
+      "caption": "text-xs sm:text-sm text-zinc-400 tracking-wider uppercase font-semibold"
+    }
+  },
+  "colors": {
+    "background": "#0c0c0e",
+    "surface": "#141418",
+    "surface_hover": "#1e1e24",
+    "primary": "#e50914",
+    "primary_hover": "#f6121d",
+    "text_main": "#f4f4f6",
+    "text_muted": "#a1a1aa",
+    "border": "#27272a",
+    "glass": "rgba(20, 20, 24, 0.75)"
+  },
+  "image_urls": {
+    "hero_banner": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?q=80&w=1920&auto=format&fit=crop",
+    "poster_scifi": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?q=80&w=600&auto=format&fit=crop",
+    "poster_thriller": "https://images.pexels.com/photos/28302225/pexels-photo-28302225.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "poster_drama": "https://images.unsplash.com/photo-1505274664176-44ccaa7969a8?q=80&w=600&auto=format&fit=crop",
+    "poster_action": "https://images.unsplash.com/photo-1782020934325-cfe4cea4fd9c?q=80&w=600&auto=format&fit=crop"
+  },
+  "key_features": [
+    "Home Discovery with Rotating Hero Carousel",
+    "Horizontal Row Categorized Browsing (Trending, Sci-Fi, Thriller, Top 10)",
+    "Advanced Search & Instant Filtering by Genre/Type",
+    "Immersive Movie & Series Details Modal / Page with Cast & Trailer",
+    "Demo Video Playback with custom cinematic video player & controls",
+    "My List (Watchlist management with local/backend sync)",
+    "User Profile Switcher (Multiple Profiles support)",
+    "Mock Subscription & Billing Management Page",
+    "Admin Dashboard for content management & analytics",
+    "Fully Responsive Navigation with Glassmorphism Header"
+  ],
+  "universal_guidelines": [
+    "Never use pure #000000 for backgrounds; use #0c0c0e for cinematic depth.",
+    "All interactive elements must include data-testid attributes for testing.",
+    "Ensure contrast ratio exceeds 4.5:1 for body text and 3:1 for interactive elements.",
+    "Glassmorphism headers must include backdrop-blur-xl and 1px subtle border.",
+    "No generic AI assistant emojis in headers or buttons."
+  ]
+}
+
+
